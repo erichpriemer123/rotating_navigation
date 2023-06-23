@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital@1&display=swap');
+
+/*universal selector */
+* {
+    /*padding and border dont affect with */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    /*sets body to flex, helps us center */
+    display: flex;
+
+    /*centers flexbox items */
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    margin: 0;
+
+    /*scroll bars arent shown by default */
+    overflow: hidden;
+}
